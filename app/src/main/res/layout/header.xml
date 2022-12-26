@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/headerView"
+    android:layout_height="wrap_content">
+
+  <ImageView
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp"
+      android:src="@drawable/logv"/>
+
+    <LinearLayout
+        android:id="@+id/premiumLay"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="5dp"
+        android:background="@drawable/button_shape"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pm"/>
+        <TextView
+            android:id="@+id/pmmmmm"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_premium"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already premium?"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:id="@+id/signin_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/layRestore"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <ImageView
+           android:layout_marginRight="16sp"
+           android:layout_marginLeft="40dp"
+           android:layout_width="24dp"
+           android:layout_height="24dp"
+           android:src="@drawable/re"/>
+        <TextView
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Restore Purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:id="@+id/layContract"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="16sp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/cal"/>
+        <TextView
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Contact Support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:id="@+id/laySetting"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="16sp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/settng"/>
+        <TextView
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layFAQ"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="16sp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/info"/>
+        <TextView
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="FAQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
